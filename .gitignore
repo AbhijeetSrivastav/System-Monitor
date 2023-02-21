@@ -5,6 +5,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+logs/
 develop-eggs/
 eggs/
 .eggs/

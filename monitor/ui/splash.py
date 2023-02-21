@@ -6,8 +6,8 @@ from tkinter.ttk import Progressbar
 import time
 
 from monitor import app
-from monitor.utilities.utils import WinCenter
-from monitor.utilities.utils import ImageConfigurator
+from monitor.utils import WinCenter
+from monitor.utils import ImageConfigurator
 
 
 class SplashScreen(tk.Tk):
@@ -22,7 +22,6 @@ class SplashScreen(tk.Tk):
     
     def __init__(self):
         super(SplashScreen, self).__init__()
-
 
         "STYLING"
         self.FONT_WEIGHT = "bold"
